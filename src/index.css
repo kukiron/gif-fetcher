@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #E5EFF1;
+}
+
+body, h1, .search-bar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+
+#root {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.gif-display-div {
+  min-height: 310px;
+  margin: 0.5em;
+}
+
+#gif {
+  width: 100%;
+  max-width: 380px;
+}
+
+.search-bar {
+  font-size: 1em;
+  line-height: 2em;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin: 10px auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 320px;
+}
