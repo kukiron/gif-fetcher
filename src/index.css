@@ -11,13 +11,14 @@ body, h1, .search-bar, button {
 
 #root {
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 25px;
   text-align: center;
   width: 90%;
 }
 
 p {
   font-size: 1.2em;
+  line-height: 1.8em;
 }
 
 .gif-display-div {
@@ -47,7 +48,7 @@ p {
   background: #f8f8f8;
   font-size: 1em;
   line-height: 2em;
-  padding: 0 20px;
+  padding: 0 25px;
   border: 1px solid #eee;
   border-radius: 0 15px 15px 0;
   cursor: pointer;
