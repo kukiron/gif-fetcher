@@ -20,6 +20,10 @@ class SearchBar extends React.Component {
     if(e.keyCode === 13) this.props.onSearch(this.state.searchTerm);
   }
 
+  onClick = () => {
+    this.props.onSearch(this.state.searchTerm);
+  }
+
   render () {
     return (
       <div>
@@ -31,7 +35,7 @@ class SearchBar extends React.Component {
           placeholder="Type a tag name here"
           value={this.state.searchTerm}
           />
-        <button className="gif-search">
+        <button type="submit" onClick={this.onClick} className="gif-search">
           <GoSearch />
         </button>
       </div>
