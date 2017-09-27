@@ -2,6 +2,9 @@
 
 Fun app built with create-react-app. It fetches GIF from [GIPHY](https://giphy.com). Search for any kind of GIF you want.
 
+## Demo
+Check out the gif-fetcher: https://gif-fetcher.herokuapp.com
+
 ## Usage
 You need to have ```node``` & ```npm``` installed to use this repo.
 
