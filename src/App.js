@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>GIF Fetcher!</h1>
-        <p>Find a GIF on <a href='http://giphy.com'>giphy</a>. Keep hitting Enter for more results.</p>
+        <p>Find a GIF on <a href='http://giphy.com'>giphy</a>.<br /> Keep hitting Enter or click the Search button for more results.</p>
         <div>
           <SearchBar onSearch={this.handleSearch} />
         </div>
