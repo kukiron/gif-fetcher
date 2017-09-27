@@ -1,4 +1,5 @@
 import React from 'react';
+import GoSearch from 'react-icons/lib/go/search';
 
 class SearchBar extends React.Component {
   state = {
@@ -21,14 +22,19 @@ class SearchBar extends React.Component {
 
   render () {
     return (
-      <input
-        type="text"
-        className="search-bar"
-        onChange={this.handleChange}
-        onKeyUp={this.handleKeyUp}
-        placeholder="Type a tag name here"
-        value={this.state.searchTerm}
-        />
+      <div>
+        <input
+          type="text"
+          className="search-bar"
+          onChange={this.handleChange}
+          onKeyUp={this.handleKeyUp}
+          placeholder="Type a tag name here"
+          value={this.state.searchTerm}
+          />
+        <button className="gif-search">
+          <GoSearch />
+        </button>
+      </div>
     );
   }
 }
