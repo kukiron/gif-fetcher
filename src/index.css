@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #E5EFF1;
+  background: #e5eff1;
 }
 
 body, h1, .search-bar, button {
@@ -37,7 +37,6 @@ p {
   border: none;
   border-radius: 15px 0 0 15px;
   border: 1px solid #eee;
-  /* border-radius: 20px; */
   margin: 10px auto;
   padding: 0 20px;
   width: 100%;
