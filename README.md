@@ -1,6 +1,6 @@
 # GIF Fetcher
 [![Build Status](https://travis-ci.org/kukiron/gif-fetcher.svg?branch=master)](https://travis-ci.org/kukiron/gif-fetcher) [![Build status](https://ci.appveyor.com/api/projects/status/obu9hpc1udvo2dn1?svg=true)](https://ci.appveyor.com/project/kukiron/gif-fetcher)
- [![Code Climate](https://codeclimate.com/github/kukiron/gif-fetcher/badges/gpa.svg)](https://codeclimate.com/github/kukiron/gif-fetcher) [![bitHound Code](https://www.bithound.io/github/kukiron/gif-fetcher/badges/code.svg)](https://www.bithound.io/github/kukiron/gif-fetcher)
+ [![Code Climate](https://codeclimate.com/github/kukiron/gif-fetcher/badges/gpa.svg)](https://codeclimate.com/github/kukiron/gif-fetcher) [![bitHound Code](https://www.bithound.io/github/kukiron/gif-fetcher/badges/code.svg)](https://www.bithound.io/github/kukiron/gif-fetcher) [![Known Vulnerabilities](https://snyk.io/test/github/kukiron/gif-fetcher/badge.svg)](https://snyk.io/test/github/kukiron/gif-fetcher)
 
 Fun app built with create-react-app. It fetches GIF from [GIPHY](https://giphy.com). Search for any kind of GIF you want.
 
